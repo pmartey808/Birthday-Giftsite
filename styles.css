@@ -1,0 +1,109 @@
+/* Place your CSS styles in this file */
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(rgb(142, 142, 255), rgb(0, 0, 0));
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    text-shadow: 1px 1px 1px black;
+}
+
+.sark-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 140px;
+    border: 6px solid #efb0c9;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{
+    background: #efb0c9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date{
+    margin: 0;
+    background: #efb0c9;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#giftcard-img-happy{
+    margin: 0 auto;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 6px;
+    height: 350px;
+    background-image: url(images/giftcard.jpg);
+    background-size: cover;
+}
+
+.giftcard-hint{
+    margin-top: 0;
+}
+
+#giftcard-img-happy:hover{
+     background-image: url(images/funnydance.gif);
+}
+
+#giftcard-img-hot{
+    margin: 0 auto;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 6px;
+    height: 350px;
+    background-image: url(images/giftcard.jpg);
+    background-size: cover;
+}
+
+#giftcard-img-hot:hover{
+    background-image: url(images/shock.gif);
+}
+
+#giftcard-img-style{
+    margin: 0 auto;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 6px;
+    height: 350px;
+    background-image: url(images/giftcard.jpg);
+    background-size: cover;
+}
+
+#giftcard-img-style:hover{
+    background-image: url(images/perfect.gif);
+}
+
+#giftcard-img-cheers{
+    margin: 0 auto;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 6px;
+    height: 250px;
+    background-image: url(images/giftcard.jpg);
+    background-size: cover;
+}
+
+#giftcard-img-cheers:hover{
+    background-image: url(images/cheers.gif);
+}
+
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+
+a{color: white;
+}
